@@ -13,9 +13,7 @@ AppAveragePurchase.propTypes = {
   chartLabels: PropTypes.arrayOf(PropTypes.string).isRequired,
 };
 
-export default function AppAveragePurchase({ title, subheader, chartLabels, chartData, ...other }) {
-  console.log(chartData);
-  
+export default function AppAveragePurchase({ title, subheader, chartLabels, chartData, ...other }) {  
   const chartOptions = merge(BaseOptionChart(), {
     plotOptions: { bar: { columnWidth: '50%' } },
     fill: { type: chartData.map((i) => i.fill) },
