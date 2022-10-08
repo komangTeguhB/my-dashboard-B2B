@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 import { Grid, Typography } from '@mui/material';
-import { styled } from '@mui/material/styles';
+import { styled, useTheme } from '@mui/material/styles';
 import skuImage from "../mock/assets/chilmil.jpg";
 
 const SkuImgStyle = styled('img')({
@@ -15,9 +15,9 @@ SkuItem.propTypes = {
 };
 
 export default function SkuItem({data}) {
-
+  const theme = useTheme();
   return (
-        <Grid container spacing={1}>
+        <Grid container spacing={1} style={{borderBottom: `1px solid ${theme.palette.secondary}`, padding: '10px'}}>
             <Grid item xs={4} md={4} lg={4}>
                     <SkuImgStyle alt={"test"} src={skuImage} />
             </Grid>
