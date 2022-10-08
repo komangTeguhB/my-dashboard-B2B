@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import SimpleBarReact from 'simplebar-react';
 // @mui
 import { alpha, styled } from '@mui/material/styles';
-import { Box, Hidden } from '@mui/material';
+import { Box } from '@mui/material';
 
 // ----------------------------------------------------------------------
 
