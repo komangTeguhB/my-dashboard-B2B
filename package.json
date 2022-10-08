@@ -2,6 +2,9 @@
   "name": "my-dashboard",
   "private": true,
   "version": "1.0.0",
+  "engines": {
+    "node": "16.15.0"
+  },
   "scripts": {
     "start": "serve -s build",
     "build": "react-scripts --max_old_space_size=4096 build",
