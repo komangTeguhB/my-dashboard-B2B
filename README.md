@@ -2,6 +2,8 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+![app screenshot](https://raw.githubusercontent.com/komangTeguhB/my-dashboard-B2B/main/screenshot.jpeg)
+
 PLEASE RUN `npm install` FIRST, ENJOY.
 
 ## Available Scripts
