@@ -29,7 +29,7 @@ export default function AppAveragePurchase({ title, subheader, chartLabels, char
       y: {
         formatter: (y) => {
           if (typeof y !== 'undefined') {
-            return `${y.toFixed(0)} visits`;
+            return `${y.toFixed(0)}K`;
           }
           return y;
         },
