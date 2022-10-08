@@ -2,9 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+Click link to see live demo: https://my-dashboard-b2b.herokuapp.com
+
 ![app screenshot](https://raw.githubusercontent.com/komangTeguhB/my-dashboard-B2B/main/screenshot.jpeg)
 
-# Notes: In order to test the different data displayed on the chart, please select date range 6 November 2022 - 12 November 2022 or 13 November 2022 - 19 November 2022.
+## Notes: In order to test the different data displayed on the chart, please select date range 6 November 2022 - 12 November 2022 or 13 November 2022 - 19 November 2022.
 
 PLEASE RUN `npm install` FIRST, ENJOY.
 
